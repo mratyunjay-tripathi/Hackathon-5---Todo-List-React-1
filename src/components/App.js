@@ -6,10 +6,10 @@ function App() {
 	const [items, setItems] = useState([]);
 	const [newItem, setNewItem] = useState("");
 	const addItem = () => {
-		// let newItemList=[...items].concat([newItem]);
-		// setItems([newItemList]);
-		items.push = (newItem);
-		setItems([items]);
+		let newItemList=[...items].concat([newItem]);
+		 setItems([newItemList]);
+		//items.push = (newItem);
+		//setItems([items]);
 		
 		setNewItem("");
 	};
